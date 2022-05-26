@@ -47,13 +47,15 @@ input:checked ~ div .hand {
   animation: none !important;
 }
 
-.hand {
+.hand > div {
   margin: 20px;
   width: 200px;
   height: 200px;
   position: relative;
   transform: rotate(10deg);
   display: inline-block;
+  border: 2px solid black;
+  background: rgb(36, 45, 160);
   animation: handShake 2s infinite;
 }
 
@@ -61,7 +63,7 @@ input:checked ~ div .hand {
   position: absolute;
   box-sizing: border-box;
   border: 2px solid black;
-  background: rgb(52, 85, 100);
+  background: rgb(156, 29, 29);
   transition: all 0.1s;
 }
 
