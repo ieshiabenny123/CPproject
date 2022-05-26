@@ -11,8 +11,8 @@
 }
 
 @keyframes handShake2 {
-  0%,100% { transform: rotateY(195deg) rotate(10deg); }
-  50% { transform: rotateY(195deg) rotate(-10deg); }
+  0%,100% { transform: rotateY(180deg) rotate(10deg); }
+  50% { transform: rotateY(180deg) rotate(-10deg); }
 }
 
 html, body {
@@ -94,7 +94,7 @@ div.thumb {
   top: 50px;
   left: 80px;
   border-left: 0 solid;
-  box-shadow: -17px 6px 0 -15px black;
+  box-shadow: -17px 6px 0 -15px rgb(201, 102, 102);
 }
 
 div.arm {
@@ -103,8 +103,8 @@ div.arm {
   left: 20px;
   top: 70px;
   border: 0;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 2px solid rgb(146, 194, 202);
+  border-bottom: 2px solid rgb(176, 75, 201);
 }
 
 #user-hand {
@@ -154,12 +154,12 @@ input[id^="paper"]:checked ~ div #computer-hand .finger-4 {
 #rock-paper:checked ~ div h2::before,
 #paper-scissors:checked ~ div h2::before,
 #scissors-rock:checked ~ div h2::before {
-  content: "You Win!"
+  content: "You Are The Winner!"
 }
 #rock-scissors:checked ~ div h2::before,
 #paper-rock:checked ~ div h2::before,
 #scissors-paper:checked ~ div h2::before {
-  content: "AI Wins! Too Bad.."
+  content: "AI wins! Too Bad.."
 }
 
 #message {
@@ -213,8 +213,8 @@ label:active::before {
 
 label {
   animation: changeOrder 0.45s infinite linear;
-  background: #f5f5f5;
-  border: 1px solid #ccc;
+  background: #915858;
+  border: 1px solid rgb(156, 210, 241);
   box-sizing: border-box;
   cursor: pointer;
   display: block;
