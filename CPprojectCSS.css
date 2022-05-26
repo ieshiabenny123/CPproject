@@ -11,8 +11,8 @@
 }
 
 @keyframes handShake2 {
-  0%,100% { transform: rotateY(180deg) rotate(10deg); }
-  50% { transform: rotateY(180deg) rotate(-10deg); }
+  0%,100% { transform: rotateY(195deg) rotate(10deg); }
+  50% { transform: rotateY(195deg) rotate(-10deg); }
 }
 
 html, body {
@@ -149,7 +149,7 @@ input[id^="paper"]:checked ~ div #computer-hand .finger-4 {
 #rock-rock:checked ~ div h2::before,
 #paper-paper:checked ~ div h2::before,
 #scissors-scissors:checked ~ div h2::before {
-  content: "You Tied!"
+  content: "You Guys Tied!"
 }
 #rock-paper:checked ~ div h2::before,
 #paper-scissors:checked ~ div h2::before,
@@ -159,7 +159,7 @@ input[id^="paper"]:checked ~ div #computer-hand .finger-4 {
 #rock-scissors:checked ~ div h2::before,
 #paper-rock:checked ~ div h2::before,
 #scissors-paper:checked ~ div h2::before {
-  content: "Computer Wins!"
+  content: "AI Wins! Too Bad.."
 }
 
 #message {
