@@ -47,7 +47,7 @@ input:checked ~ div .hand {
   animation: none !important;
 }
 
-.hand > div {
+.hand {
   margin: 20px;
   width: 200px;
   height: 200px;
@@ -59,7 +59,8 @@ input:checked ~ div .hand {
   animation: handShake 2s infinite;
 }
 
-.hand > div {
+
+.hand {
   position: absolute;
   box-sizing: border-box;
   border: 2px solid black;
