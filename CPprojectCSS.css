@@ -61,7 +61,7 @@ input:checked ~ div .hand {
   position: absolute;
   box-sizing: border-box;
   border: 2px solid black;
-  background: rgb(255, 0, 0);
+  background: rgb(52, 85, 100);
   transition: all 0.1s;
 }
 
@@ -94,7 +94,7 @@ div.thumb {
   top: 50px;
   left: 80px;
   border-left: 0 solid;
-  box-shadow: -17px 6px 0 -15px rgb(201, 102, 102);
+  box-shadow: -17px 6px 0 -15px rgb(80, 156, 90);
 }
 
 div.arm {
@@ -213,8 +213,8 @@ label:active::before {
 
 label {
   animation: changeOrder 0.45s infinite linear;
-  background: #915858;
-  border: 1px solid rgb(156, 210, 241);
+  background: #508a6a;
+  border: 1px solid rgb(12, 12, 12);
   box-sizing: border-box;
   cursor: pointer;
   display: block;
