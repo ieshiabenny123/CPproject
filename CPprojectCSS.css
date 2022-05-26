@@ -60,7 +60,7 @@ input:checked ~ div .hand {
 }
 
 
-.hand {
+.hand > div {
   position: absolute;
   box-sizing: border-box;
   border: 2px solid black;
