@@ -243,7 +243,7 @@ label:active::before {
 /* This is the code for the color and outline of the boxes */
 label {
   animation: changeOrder 0.45s infinite linear;
-  background: white;
+  background: #ffffff;
   border: 1px solid #ccc;
   box-sizing: border-box;
   cursor: pointer;
