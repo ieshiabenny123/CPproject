@@ -10,7 +10,11 @@
   50% { transform: rotate(-10deg); }
 }
 
-form.solid {border-style: solid;}
+form.solid {
+  border-style: solid;
+  border-width: medium;
+  border-color: white;
+}
 
 body {
   background-color: black;    
