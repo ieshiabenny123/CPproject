@@ -52,7 +52,7 @@ input:checked ~ div .hand {
   animation: none !important;
 }
 
-.hand1 {
+.hand {
   margin: 20px;
   width: 200px;
   height: 200px;
@@ -62,16 +62,7 @@ input:checked ~ div .hand {
   animation: handShake 2s infinite;
 }
 
-
-.hand1 > div {
-  position: absolute;
-  box-sizing: border-box;
-  border: 2px solid black;
-  background: rgb(240, 8, 8);
-  transition: all 0.1s;
-}
-
-.hand {
+.hand1 {
   margin: 20px;
   width: 200px;
   height: 200px;
@@ -89,6 +80,15 @@ input:checked ~ div .hand {
   background: rgb(223, 175, 238);
   transition: all 0.1s;
 }
+
+.hand1 > div {
+  position: absolute;
+  box-sizing: border-box;
+  border: 2px solid black;
+  background: rgb(240, 8, 8);
+  transition: all 0.1s;
+}
+
 
 .fist {
   height: 110px;
