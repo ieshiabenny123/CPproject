@@ -182,16 +182,19 @@ input[id^="paper"]:checked ~ div #computer-hand .finger-4 {
 #rock-rock:checked ~ div h2::before,
 #paper-paper:checked ~ div h2::before,
 #scissors-scissors:checked ~ div h2::before {
+  color: white;
   content: "You Guys Tied!"
 }
 #rock-paper:checked ~ div h2::before,
 #paper-scissors:checked ~ div h2::before,
 #scissors-rock:checked ~ div h2::before {
+  color: white;
   content: "You Are The Winner!"
 }
 #rock-scissors:checked ~ div h2::before,
 #paper-rock:checked ~ div h2::before,
 #scissors-paper:checked ~ div h2::before {
+  color: white;
   content: "AI Wins! Too Bad.."
 }
 
@@ -246,7 +249,7 @@ label:active::before {
 /* This is the code for the color and outline of the boxes */
 label {
   animation: changeOrder 0.45s infinite linear;
-  background: #b5e6bf;
+  background: white;
   border: 1px solid #ccc;
   box-sizing: border-box;
   cursor: pointer;
