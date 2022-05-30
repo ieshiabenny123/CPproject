@@ -12,9 +12,10 @@
 
 body {
   background-color: black;
-  border: 3px solid limegreen; 
-  padding:16px;
-  margin:10px
+  margin:0px auto:display:block;
+  border: 2px limegreen;
+  padding:40px;
+  margin: 50px;
     
 }
 
