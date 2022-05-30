@@ -47,6 +47,7 @@ input:checked ~ div .hand {
   animation: none !important;
 }
 
+/* This is the code for ? */
 .hand {
   margin: 20px;
   width: 200px;
@@ -57,12 +58,12 @@ input:checked ~ div .hand {
   animation: handShake 2s infinite;
 }
 
-
-.hand > div {
+/* This is the code for the color of the outline of the hand and the color of the hand */
+.hand {
   position: absolute;
   box-sizing: border-box;
   border: 2px solid black;
-  background: rgb(156, 29, 29);
+  background: rgb(192, 141, 207);
   transition: all 0.1s;
 }
 
@@ -87,6 +88,7 @@ input:checked ~ div .hand {
 .finger-3 { top: 106px; --dif: 0px; }
 .finger-4 { top: 134px; height: 26px; left: 76px; --dif: -8px; }
 
+/* This is the code for the outline of the thumb */
 div.thumb {
   width: 35px;
   height: 70px;
@@ -95,17 +97,18 @@ div.thumb {
   top: 50px;
   left: 80px;
   border-left: 0 solid;
-  box-shadow: -17px 6px 0 -15px rgb(80, 156, 90);
+  box-shadow: -17px 6px 0 -15px rgb(0, 0, 0);
 }
 
+/* This is the code for the outline of the arm */
 div.arm {
   width: 22px;
   height: 70px;
   left: 20px;
   top: 70px;
   border: 0;
-  border-top: 2px solid rgb(146, 194, 202);
-  border-bottom: 2px solid rgb(176, 75, 201);
+  border-top: 2px solid rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 #user-hand {
@@ -147,6 +150,7 @@ input[id^="paper"]:checked ~ div #computer-hand .finger-4 {
   border-radius: 0 20px 20px 0;
 }
 
+/* This is the code for the text after and action */
 #rock-rock:checked ~ div h2::before,
 #paper-paper:checked ~ div h2::before,
 #scissors-scissors:checked ~ div h2::before {
@@ -211,10 +215,10 @@ label:active::before {
   height: 60px;
 }
 
-
+/* This is the code for the boxes with the symbols */
 label {
   animation: changeOrder 0.45s infinite linear;
-  background: #508a6a;
+  background: #80bb97;
   border: 1px solid rgb(12, 12, 12);
   box-sizing: border-box;
   cursor: pointer;
