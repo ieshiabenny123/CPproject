@@ -47,7 +47,6 @@ input:checked ~ div .hand {
   animation: none !important;
 }
 
-/* This is the code for ? */
 .hand {
   margin: 20px;
   width: 200px;
@@ -58,12 +57,12 @@ input:checked ~ div .hand {
   animation: handShake 2s infinite;
 }
 
-/* This is the code for the color of the outline of the hand and the color of the hand */
-.hand {
+/* This is the code for the outline and color of the hand */
+.hand > div {
   position: absolute;
   box-sizing: border-box;
   border: 2px solid black;
-  background: rgb(192, 141, 207);
+  background: rgb(223, 175, 238);
   transition: all 0.1s;
 }
 
@@ -88,7 +87,7 @@ input:checked ~ div .hand {
 .finger-3 { top: 106px; --dif: 0px; }
 .finger-4 { top: 134px; height: 26px; left: 76px; --dif: -8px; }
 
-/* This is the code for the outline of the thumb */
+/* This is the code for the outline of the thumbs */
 div.thumb {
   width: 35px;
   height: 70px;
@@ -97,7 +96,7 @@ div.thumb {
   top: 50px;
   left: 80px;
   border-left: 0 solid;
-  box-shadow: -17px 6px 0 -15px rgb(0, 0, 0);
+  box-shadow: -17px 6px 0 -15px black;
 }
 
 /* This is the code for the outline of the arm */
@@ -108,7 +107,7 @@ div.arm {
   top: 70px;
   border: 0;
   border-top: 2px solid rgb(0, 0, 0);
-  border-bottom: 2px solid rgb(0, 0, 0);
+  border-bottom: 2px solid black;
 }
 
 #user-hand {
@@ -150,7 +149,6 @@ input[id^="paper"]:checked ~ div #computer-hand .finger-4 {
   border-radius: 0 20px 20px 0;
 }
 
-/* This is the code for the text after and action */
 #rock-rock:checked ~ div h2::before,
 #paper-paper:checked ~ div h2::before,
 #scissors-scissors:checked ~ div h2::before {
@@ -164,7 +162,7 @@ input[id^="paper"]:checked ~ div #computer-hand .finger-4 {
 #rock-scissors:checked ~ div h2::before,
 #paper-rock:checked ~ div h2::before,
 #scissors-paper:checked ~ div h2::before {
-  content: "AI wins! Too Bad.."
+  content: "AI Wins! Too Bad.."
 }
 
 #message {
@@ -215,11 +213,11 @@ label:active::before {
   height: 60px;
 }
 
-/* This is the code for the boxes with the symbols */
+/* This is the code for the color and outline of the boxes */
 label {
   animation: changeOrder 0.45s infinite linear;
-  background: #80bb97;
-  border: 1px solid rgb(12, 12, 12);
+  background: #b5e6bf;
+  border: 1px solid #ccc;
   box-sizing: border-box;
   cursor: pointer;
   display: block;
