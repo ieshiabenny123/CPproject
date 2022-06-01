@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Crimson+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ultra&display=swap');
 
 @keyframes changeOrder {
   from { z-index: 9;}
@@ -24,7 +24,7 @@ html, body {
   padding: 0;
   border: 0;
   line-height: 1;
-  font-family: 'Crimson Pro', serif;
+  font-family: 'Ultra';
 }
 
 form {
