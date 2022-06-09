@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBMPlexSans&display=swap');
 
 @keyframes changeOrder {
   from { z-index: 9;}
@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: black;    
+    background-image: url("spike.jpg"); 
 }
 
 @keyframes handShake2 {
@@ -24,7 +24,7 @@ html, body {
   padding: 0;
   border: 0;
   line-height: 1;
-  font-family: 'Ultra', serif;
+  font-family: 'IBM PLex Sans';
 }
 
 form {
@@ -42,7 +42,7 @@ form {
 h1 {
   text-align: center;
   color: white;
-  border: 3px solid green:
+  border: 3px solid rgb(255, 255, 255);
 }
 
 #hands {
